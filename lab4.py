@@ -35,4 +35,10 @@ def make_order():# основна функція оформлення замов
             print(f"{item}: {format_price(products[item])}")# виводимо ціну кожного товару
     else:
         print("Невідома команда.")# якщо команда невірна
-make_order()# запуск програми
+
+def main():
+    process_order()
+
+
+if __name__ == '__main__':
+    main()
